@@ -31,7 +31,7 @@ public class MainSecurity extends WebSecurityConfigurerAdapter {
     @Bean
     public JwtTokenFilter jwtTokenFilter(){
         return new JwtTokenFilter();
-    }
+    }si lo estoy vien
 
     @Bean
     public PasswordEncoder passwordEncoder(){
